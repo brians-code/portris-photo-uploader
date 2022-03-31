@@ -1,0 +1,44 @@
+{
+  "name": "googlephotos",
+  "version": "0.3.4",
+  "description": "Library to make working with the Google Photos API easy",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "mocha test/**/*.js",
+    "lint": "eslint ."
+  },
+  "engines": {
+    "node": ">=10.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/roopakv/google-photos.git"
+  },
+  "keywords": [
+    "google",
+    "google-photos",
+    "photos"
+  ],
+  "author": "Roopak Venkatakrishnan",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/roopakv/google-photos/issues"
+  },
+  "homepage": "https://github.com/roopakv/google-photos#readme",
+  "devDependencies": {
+    "chai": "^4.1.2",
+    "eslint": "^4.19.1",
+    "eslint-config-airbnb-base": "^12.1.0",
+    "eslint-config-prettier": "^2.9.0",
+    "eslint-plugin-import": "^2.12.0",
+    "eslint-plugin-mocha": "^5.0.0",
+    "eslint-plugin-prettier": "^2.6.0",
+    "mocha": "^5.2.0",
+    "prettier": "^2.0.5"
+  },
+  "dependencies": {
+    "ky": "^0.20.0",
+    "ky-universal": "^0.6.0",
+    "lodash.chunk": "^4.2.0"
+  }
+}

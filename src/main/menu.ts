@@ -208,6 +208,9 @@ export default class MenuBuilder {
               this.mainWindow.close();
             },
           },
+          {
+            label: '&Select Directory...',
+          },
         ],
       },
       {
